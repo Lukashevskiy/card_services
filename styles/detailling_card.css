@@ -1,0 +1,179 @@
+.block__set_detail_in_card{
+	box-sizing: border-box;
+	flex-direction: column;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 570px;
+	height: 1080px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 6px #00000029;
+	display: flex;
+	flex-shrink: 0;
+}
+
+.block__content_in_detailling_card{
+	font-family: Roboto;
+	font-weight: normal;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.label{
+	color: #707070;
+	margin-bottom: 5px;
+}
+
+
+.block__title_in_detailing_card{
+	margin-top: 32px;
+	margin-bottom: 31px;
+	font-weight: bold;
+	font-family: Roboto;
+	color: #707070;
+	font-size: 20px;
+}
+
+
+
+
+.button_apply_detailling_card{
+	font-family: Roboto;
+	font-weight: normal;
+	font-size: 14px;
+	color: white;
+	width: 126px;
+	height: 32px;
+	background: #3F88E8 0% 0% no-repeat padding-box;
+	border-radius: 32px;
+}
+
+.block__content_multy_in_detailing_card{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+
+.custom_checkbox_for_detailing_in_card{
+	padding: 0;
+	position: absolute;
+  	z-index: -1;
+  	opacity: 0;
+  	margin: 0
+}
+
+.custom_checkbox_for_detailing_in_card + label::before{
+	box-sizing: border-box;
+	margin-right: 5px;
+	content: '';
+	justify-content: center;
+	width: 17px;
+	height: 17px;
+  	background-color: #707070;
+  	border-radius: 3px;
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.custom_checkbox_for_detailing_in_card:checked+label::before{
+	background-color: #707070;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23ffff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+	background-size: 70%;
+
+}
+.custom_checkbox_for_detailing_in_card:disabled+label::before {
+  background-color: #e9ecef;
+}
+
+
+
+#seCphone{
+	display: none;
+	width: 225px;
+	margin-right: 9px;
+}
+
+
+#is2phone + label::before {
+	background-color: white;
+	background-size: 100%;
+	background-image: url("../assets/imgs/Group416.svg");
+}
+
+
+
+#is2phone:checked+label::before {
+	background-image: url("../assets/imgs/Group384.svg");
+
+}
+
+
+#block__phone_details{
+	margin-top: 11px;
+}
+
+
+.block__styleing_input_in_detail_card{
+	box-sizing: border-box;
+	border: 1px solid #AAAAAABF;
+	border-radius: 2px;
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	margin-right: 12px;
+	height: 24px;
+	align-items: center;
+	
+
+}
+
+.block__styleing_input_in_detail_card input[type=radio]{
+	display: none;
+}
+
+.block__styleing_input_in_detail_card label{
+	color: #202020;
+	padding: 4px;
+	display: inline-block;
+	cursor: pointer;
+	align-items: center;
+	
+}
+.block__styling_orientation label{
+	box-sizing: border-box;
+	height: 22px;
+	width: 34px;
+	background-repeat: no-repeat;
+	background-position: center;
+	align-items: center;
+	
+}
+
+
+.block__styleing_input_in_detail_card input[type=radio]:checked+label{
+	background-color: #D9D9D9;
+}
+
+.block__styling_coloring{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.block__styling_coloring input[type=radio]{
+	display: none;
+}
+.block__styling_coloring label{
+	background-color: white;
+	height: 24px;
+	width: 24px;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 12px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.block__styling_coloring input[type=radio]:checked+label{
+	background-color: white;
+	border-width: 7px;
+	
+
+}

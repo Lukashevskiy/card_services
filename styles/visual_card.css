@@ -1,0 +1,55 @@
+.block__visual_card{
+	box-sizing: border-box;
+	padding: 22px;
+	flex-direction: column;
+	flex-shrink: 0;
+	margin-top: 78px;
+	margin-left: 65px;
+	width: 445px;
+	height: 268px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 6px 12px #00000029;
+	border: 1px solid #707070A8;
+	border-radius: 6px;
+	display: flex;
+}
+
+
+.block__title_in_visual_card{
+	text-align: center;
+	font-size: 10px;
+	margin-bottom: 32px;
+}
+
+.block__main_information_in_visual_card{
+	box-sizing: border-box;
+	font-family: Roboto;
+	margin-bottom: 20px;
+}
+.NSL_in_visual_card{
+	box-sizing: border-box;
+	font-size: 20pt;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.Job_in_visual_card{
+	box-sizing: border-box;
+	font-size: 14px;
+	text-align: center;
+	color: #202020BF;
+}
+
+.block__sub__information_in_visual_card{
+	padding-left: 50%;
+	font-size: 12px;
+
+	
+}
+.sub_inf{
+	margin-bottom: 10px;
+}
+
+
+

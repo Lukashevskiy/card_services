@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: row;
+	height: auto;
+	margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background: url("../assets/imgs/background.png");
+	font-family: 'Roboto';
+	font-weight: normal;
+}
+
+
+
+.block__input_detail_in_card{
+	box-sizing: border-box;
+	width: 255px;
+	height: 24px;
+	padding-left: 5px;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	border: 1px solid #AAAAAABF;
+	border-radius: 2px;
+	margin-right: 30px;
+}
+
+button{
+	border: 0;
+
+}
+
+
+label{
+	font-size: 12px;
+	font-family: Roboto;
+	color: #707070;
+
+	display: flex;
+	justify-content:center;
+}
+
+input{
+	margin: 0;
+}

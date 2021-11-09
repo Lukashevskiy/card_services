@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+	</title>
+	<link rel="stylesheet" type="text/css" href="./styles/main.css">
+	<link rel="stylesheet" type="text/css" href="./styles/detailling_card.css">
+	<link rel="stylesheet" type="text/css" href="./styles/visual_card.css">
+	<script async src="./scripts/main.js"></script>
+</head>
+<body>
+	<div class="block__set_detail_in_card">
+		<div class="block__title_in_detailing_card">
+			Конструктор визиток
+		</div>
+		<div class="block__content_in_detailling_card">
+			<div class="label">
+				Наименование компании
+			</div>
+			<input type="text" name="label_company" class='block__input_detail_in_card'>
+		</div>
+		
+
+		<div class="block__content_in_detailling_card">
+			<div class="label">
+				Фамилия, Имя, Отчество
+			</div>
+			<div class="block__content_multy_in_detailing_card ">
+				<input type="text" name="NSL" class='block__input_detail_in_card'>
+				<div class="block__styleing_input_in_detail_card block__styling_orientation">
+					<input id="orientation__field_left_of_NSL_in_input_detail" type="radio" name="orientation_NSL" value="left" >
+					<label style="background-image: url(./assets/imgs/Group646.svg);"  for='orientation__field_left_of_NSL_in_input_detail'></label>
+					<input id="orientation__field_center_of_NSL_in_input_detail" type="radio" name="orientation_NSL" value="center" checked>
+					<label style="background-image: url(./assets/imgs/Group643.svg);" for='orientation__field_center_of_NSL_in_input_detail'></label>
+					<input id="orientation__field_right_of_NSL_in_input_detail" type="radio" name="orientation_NSL" value="right">	
+					<label style="background-image: url(./assets/imgs/Group645.svg);" for='orientation__field_right_of_NSL_in_input_detail'></label>
+				</div>
+				<div class="block__styleing_input_in_detail_card ">
+					<input id="size__field_left_of_NSL_in_input_detail" type="radio" name="size_NSL" value="24px" >
+					<label for='size__field_left_of_NSL_in_input_detail'>24px</label>
+					<input id="size__field_center_of_NSL_in_input_detail" type="radio" name="size_NSL" value="26px" checked>
+					<label for='size__field_center_of_NSL_in_input_detail'>26px</label>
+					<input id="size__field_right_of_NSL_in_input_detail" type="radio" name="size_NSL" value="28px">
+					<label for='size__field_right_of_NSL_in_input_detail'>28px</label>
+				</div>
+				
+			</div>
+			<div class="block__content_multy_in_detailing_card block__styling_coloring">
+				<input id="color_text_NSL__black"type="radio" name="color_text_NSL" value="#202020" checked>
+				<label style="border-color: #202020;" for="color_text_NSL__black"></label>
+				<input id="color_text_NSL__blue"type="radio" name="color_text_NSL" value="#3F88E8">
+				<label style="border-color: #3F88E8;" for="color_text_NSL__blue"></label>
+				<input id="color_text_NSL__red"type="radio" name="color_text_NSL" value="#E83F56">
+				<label style="border-color: #E83F56;" for="color_text_NSL__red"></label>
+				<input id="color_text_NSL__green"type="radio" name="color_text_NSL" value="#097A14">
+				<label style="border-color: #097A14;" for="color_text_NSL__green"></label>
+				<input id="color_text_NSL__orange"type="radio" name="color_text_NSL" value="#DCA40A">
+				<label style="border-color: #DCA40A;" for="color_text_NSL__orange"></label>
+				<input id="color_text_NSL__purple"type="radio" name="color_text_NSL" value="#DC0AD5">
+				<label style="border-color: #DC0AD5;" for="color_text_NSL__purple"></label>
+			</div>
+		</div>
+
+		
+		<div class="block__content_in_detailling_card">
+			<div class="label">
+				Должность
+			</div>
+			<div class="block__content_multy_in_detailing_card">
+				<input type="text" name="job" class='block__input_detail_in_card'>
+				<div class="block__styleing_input_in_detail_card block__styling_orientation">
+					<input id="orientation__field_left_of_job_in_input_detail" type="radio" name="orientation_job" value="left" >
+					<label style="background-image: url(./assets/imgs/Group646.svg);" for='orientation__field_left_of_job_in_input_detail'></label>
+					<input id="orientation__field_center_of_job_in_input_detail" type="radio" name="orientation_job" value="center" checked>
+					<label style="background-image: url(./assets/imgs/Group643.svg);" for='orientation__field_center_of_job_in_input_detail'></label>
+					<input id="orientation__field_right_of_job_in_input_detail" type="radio" name="orientation_job" value="right">
+					<label style="background-image: url(./assets/imgs/Group645.svg);" for='orientation__field_right_of_job_in_input_detail'></label>
+				</div>
+				<div class="block__styleing_input_in_detail_card">
+					<input id="size__field_left_of_job_in_input_detail" type="radio" name="size_job" value="14px" >
+					<label for='size__field_left_of_job_in_input_detail'>14px</label>
+					<input id="size__field_center_of_job_in_input_detail" type="radio" name="size_job" value="16px" checked>
+					<label for='size__field_center_of_job_in_input_detail'>16px</label>
+					<input id="size__field_right_of_job_in_input_detail" type="radio" name="size_job" value="18px">
+					<label for='size__field_right_of_job_in_input_detail'>18px</label>
+				</div>
+				
+			</div>
+			<div class="block__content_multy_in_detailing_card block__styling_coloring">
+				<input id="color_text_job__default"type="radio" name="color_text_job" value="#474747" checked>
+				<label style="border-color: #474747; " for="color_text_job__default"></label>
+				<input id="color_text_job__black"type="radio" name="color_text_job" value="#202020">
+				<label style="border-color: #202020; " for="color_text_job__black"></label>
+				<input id="color_text_job__dark_grey"type="radio" name="color_text_job" value="#636363">
+				<label style="border-color: #636363; " for="color_text_job__dark_grey"></label>
+				<input id="color_text_job__grey" type="radio" name="color_text_job" value="#9E9E9E">
+				<label style="border-color: #9E9E9E;" for="color_text_job__grey"></label>
+				<input id="color_text_job__light_grey"type="radio" name="color_text_job" value="#BBBBBB">
+				<label style="border-color: #BBBBBB; " for="color_text_job__light_grey"></label>
+				<input id="color_text_job__lighter_grey"type="radio" name="color_text_job" value="#E3E3E3">
+				<label style="border-color: #E3E3E3; " for="color_text_job__lighter_grey"></label>
+			</div>
+
+
+		</div>
+		
+		<div class="block__content_in_detailling_card">
+			<div class="label">
+				Телефон
+			</div>
+			<input type="text" name="phone_number" class='block__input_detail_in_card'>
+			<div class="block__content_multy_in_detailing_card" id="block__phone_details">
+
+				<input id="seCphone" type="text" name="phone_number" class='block__input_detail_in_card'>
+				<input id="is2phone" type="checkbox" name="added_phone" class="custom_checkbox_for_detailing_in_card" value="yes">
+				<label id="foris2phone" for='is2phone'> Добавить еще один телефон </label>
+			</div>
+		</div>
+
+		<div class="block__content_in_detailling_card">
+			<div class="label">
+				E-mail
+			</div>
+			<div class="block__content_multy_in_detailing_card">
+				<input type="text" name="email" class='block__input_detail_in_card'>
+				<input id="added_email" type="checkbox" name="added_email" class="custom_checkbox_for_detailing_in_card" value="yes"> 
+				<label for="added_email"> Отображать </label>
+			</div>
+		</div>
+		<div class="block__content_in_detailling_card">
+			<div class="label">
+				Адрес
+			</div>
+			<div class="block__content_multy_in_detailing_card">
+				<input type="text" name="adress" class='block__input_detail_in_card'>
+				<input id="added_dress" type="checkbox" name="added_dress" class="custom_checkbox_for_detailing_in_card" value="yes"> 
+				<label for="added_dress"> Отображать </label>
+			</div>
+		</div>
+		<div class="block__content_in_detailling_card">
+			<button id='apply_btn' class="button_apply_detailling_card">
+				Применить
+			</button>
+		</div>
+	</div>
+	<div class="block__visual_card">
+		<div id="field_label_company" class="block__title_in_visual_card field__visual_card">
+			ООО "Мега компания"
+		</div>
+		<div class="block__main_information_in_visual_card">
+			<div id="field_NSL" class="NSL_in_visual_card field__visual_card">
+				Иван Иванович Иванов
+			</div>
+			<div id="field_job" class="Job_in_visual_card field__visual_card">
+				Просто здесь работает
+			</div>
+		</div>
+		<div class="block__sub__information_in_visual_card">
+			<div id="field_phone_number" class="sub_inf field__visual_card">
+				+7(800)555-35-35
+			</div>
+			<div id="field_phone_2snumber" class="sub_inf field__visual_card">
+				
+			</div>
+			<div id="field_email" class="sub_inf field__visual_card">
+				skam@splitpeople.org
+			</div>
+			<div id="field_adress" class="sub_inf field__visual_card">
+				Иркутск, А больше нет, 123, оф. 12
+			</div>
+		</div>
+	</div>
+</body>
+</html>
