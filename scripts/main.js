@@ -8,10 +8,13 @@ if (document.readyState != 'loading') {
 	var color_job = "#202020"
 	var size_NSL = "26px";
 	var size_job = "16px";
+
     const content__detail_in_card = document.querySelector(".block__set_detail_in_card");
     const visual__fields = document.querySelectorAll(".field__visual_card");
+	
 	apply_btn.addEventListener("click", () => {
 		var information_of_detailing = content__detail_in_card.querySelectorAll("input");
+		
 		for(var i = 0; i < 2; i++){
 			if(information_of_detailing[i].value === ""){
 				alert("Проверьте поля.\n Пустыми не должны быть: \n \t Наименование компании \n \t Фамилия, Имя, Отчество\n \t Должность \n Остальные могут быть пустыми ;)");
@@ -61,6 +64,14 @@ if (document.readyState != 'loading') {
 			}
 		}
 
+		if(information_of_detailing[31].checked){
+			flag_email = true;
+		}
+
+		if(information_of_detailing[33].checked){
+			flag_adress = true
+		}
+
 
 		visual__fields[0].textContent = information_of_detailing[0].value;
 
@@ -92,6 +103,8 @@ if (document.readyState != 'loading') {
 			visual__fields[6].style.display = "none";
 		}
 
+
+
 		
 	});
 
@@ -110,26 +123,5 @@ if (document.readyState != 'loading') {
     			
   		}
 	});
-
-	const checkbox_add_email = document.querySelector("#added_email");
-	checkbox_add_email.addEventListener('change', (event) => {
-  		if (event.currentTarget.checked) {
-    		flag_email = true;
-  		} else {
-    		flag_email = false;
-    			
-  		}
-	});
-	const checkbox_add_adress = document.querySelector("#added_dress");
-	checkbox_add_adress.addEventListener('change', (event) => {
-  		if (event.currentTarget.checked) {
-    		flag_adress = true;
-  		} else {
-    		flag_adress = false;
-    			
-  		}
-	});
-
-
 
 }	
